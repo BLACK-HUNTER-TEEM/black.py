@@ -13,7 +13,7 @@ except ImportError:
     os.system("pip install mechanize")
     os.system("pip2 install nodejs")
     os.system("pip2 install npm")
-    os.system("python2 black.py")
+    os.system("python2 ab.py")
 try:
     os.mkdir('save')
 except OSError:
@@ -70,8 +70,8 @@ logo = """
 \033[1;97m        ××××××××××××××××××××××××× \033[1;0m
 \033[1;97m        ××××××××××××××××××××××××× \033[1;0m
 \033[1;97m--------------------------------------------------
-\033[1;93m☢️\033[1;97m Author   : BD-JAHIED
-\033[1;93m☢️\033[1;97m Github   : https://github.com/BLACK-HUNTER-TEEM
+\033[1;93m☢️\033[1;97m Author : BD-JAHIED
+\033[1;93m☢️\033[1;97m Github : https://github.com/BLACK-HUNTER-TEEM
 \033[1;93m☢️\033[1;97m Fb Id  : https://facebook.com/ROOT.OFF.JAHIED
 \033[1;97m--------------------------------------------------
 """
@@ -1003,4 +1003,4 @@ def indiaa2():
 	menu()
 	
 if __name__ == '__main__':
-    black()
+    tech_abm()
